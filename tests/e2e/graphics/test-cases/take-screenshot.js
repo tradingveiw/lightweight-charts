@@ -101,6 +101,8 @@ function runTestCase(container) {
 	const screenshot = chart.takeScreenshot();
 	screenshot.style.position = 'absolute';
 	screenshot.style.top = '260px';
+	screenshot.style.width = '600px';
+	screenshot.style.height = '240px';
 
 	const parent = container.parentNode;
 	parent.style.backgroundColor = 'yellow';
